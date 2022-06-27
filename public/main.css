@@ -1,0 +1,127 @@
+
+@charset "UTF-8";
+
+body{
+			height: 100%;
+			background-color: #93a8ac;
+		  font-family: Arial, Helvetica, sans-serif;
+			font-weight: 400;
+			text-align: center;
+			margin: auto;
+			margin: 0; 
+      font-size: 13px;
+		}
+
+
+
+.navbar1 {
+overflow: hidden;
+background: #affc41;
+position: sticky;
+
+top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar1 a {
+float: left;
+display: block;
+color: black;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar1 a.right {
+float: right;
+}
+
+/* Change color on hover */
+.navbar1 a:hover {
+background-color: rgb(255, 255, 255);
+color: black;
+}
+
+/* Active/current link */
+.navbar1 a.active {
+background-color: #545454;
+color: rgb(255, 255, 255);
+}
+.btn.dropdown-toggle  {
+    width:150px;
+    text-align:left;
+}
+
+span.caret {
+    position: absolute;
+    left: 90%;
+    top: 45%;
+}
+
+label {
+    padding-top:5px;
+}
+
+.form-label {
+    padding-left:0px !important;
+}
+
+img {
+    width:140px;
+    height:140px;
+    
+}
+
+.btn-success {
+    background-color: #3b7d4a!important;
+}
+
+.btn-success:hover {
+    background-color: #4daf64!important;
+}
+
+img.track {
+    border: 1px solid #8a8a8a;
+}
+
+
+
+
+
+
+
+
+footer {
+display: block;
+position: fixed; 
+bottom: 0;
+right: 0;
+left: 0;
+}
+
+
+div#fadeBotBar {
+border: 0;
+height: 2px;
+background-image: linear-gradient(to right, transparent, #affc41, transparent);
+color: black;
+}
+
+div#upgrad {
+padding-top: 22px;
+padding-bottom: 12px;
+background-color: #affc41;
+margin-top: auto;
+margin-right: auto;
+margin-bottom: auto;
+margin-left: auto;
+
+}
+
+
+
+
+  
+
